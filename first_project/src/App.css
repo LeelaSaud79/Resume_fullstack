@@ -1,0 +1,167 @@
+p {
+  color: Black;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 5px;
+
+}
+
+div {
+  font-size: 20px;
+  color: black;
+
+}
+
+.cont,
+.skill,
+.reference,
+.intro {
+  padding: 20px;
+  margin: 10px;
+}
+
+.box {
+  background-color: lightgray;
+  max-width: 768px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-image: url('svg.png');
+}
+
+h3 {
+  font-weight: bolder;
+  font-size: 22px;
+  padding-top: 43px;
+  margin-bottom: 23px;
+}
+
+a {
+  color: black;
+}
+
+.heading, .edu {
+  font-weight: bolder;
+  font-size: medium;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.col-sm-5 {
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-top: -10px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  body {
+    font-size: 12px;
+  }
+
+}
+.summary{
+  padding-top: 0px;
+  margin-top: 5px;
+}
+#hire-button
+{
+  position: absolute;
+  left: 0%;
+  top: 97%;
+  cursor: pointer;
+  background-color: lightpink;
+  outline: none;
+  border: none;
+  color: black;
+  font-weight: bold;
+}
+#logout-button
+{
+  position: absolute;
+  left: 68%;
+  top: 97%;
+  cursor: pointer;
+  background-color: lightpink;
+  outline: none;
+  border: none;
+  color: black;
+  font-weight: bold;
+}
+
+.edu{
+  padding-top: 0px;
+  margin-bottom: 0px;
+}
+.tech{
+  font-weight: bolder;
+
+}
+.date{
+  content: "-";
+  margin: 0 4px; 
+}
+.name{
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.designation{
+  font-size: medium;
+  font-weight: bold;
+}
+/* CSS for the login container */
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightgray;
+}
+
+/* CSS for the form container */
+.form {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+/* CSS for form inputs */
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* CSS for the login button */
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: lightseagreen;
+  color: wheat;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* CSS for the login button hover effect */
+.login-form button:hover {
+  background-color: blueviolet;
+}
+.header{
+  text-align: center;
+  margin-bottom: 20px;
+  color: black;
+}
